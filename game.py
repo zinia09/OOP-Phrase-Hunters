@@ -20,7 +20,7 @@ class Game:
 
 
     def get_random_phrase(self):
-        random_phrase = random.choice(phrases)
+        random_phrase = random.choice(self.phrases)
         return random_phrase
 
 #
